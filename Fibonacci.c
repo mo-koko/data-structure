@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 
 int Fibonacci(int n)
 {
@@ -12,12 +11,12 @@ int Fibonacci(int n)
 int main()
 {
     int n, i;
-    printf("¸î ¹øÂ°±îÁö ÇÇº¸³ªÄ¡ ¼ö¿­À» ±¸ÇÒ±î¿ä? : ");
+    printf("ëª‡ ë²ˆì§¸ê¹Œì§€ í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ì„ êµ¬í• ê¹Œìš”? : ");
     scanf("%d", &n);
 
     for(i = 1; i < n+1; i++)
     {
-        printf("%d¹øÂ° ¼ö ", i);
+        printf("%dë²ˆì§¸ ìˆ˜ ", i);
         printf("%d\n", Fibonacci(i));
     }
     return 0;
